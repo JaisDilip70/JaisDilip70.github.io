@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JTC - Jaiswal Trading Company</title>
+
+    <!-- Dependencies Starts here-->
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Google Font deps-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orienta&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Georama:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Google fonts deps ends-->
+
+    <link rel="stylesheet" href="./neon.css" />
+    <script type="module" src="./index.js"></script>
+    <!-- Dependecies Ends here-->
+  </head>
+  <body class="text-white">
+    <div
+      id="container"
+      class="block w-screen h-screen relative overflow-hidden"
+    >
+      <div class="w-screen h-screen absolute cover">
+        <img
+          id="bg-img"
+          src="./imgs/wallps/1186214.jpg"
+          class="w-full h-full"
+        />
+      </div>
+      <div class="fixed z-40 w-screen text-center h-24 py-6 lg:py-10">
+        <p class="text-orienta text-xl lg:text-2xl">JAISWAL TRADING COMPANY</p>
+      </div>
+      <div class="absolute z-0 w-screen h-screen flex flex-col justify-center">
+        <div class="w-full lg:w-1/2 h-auto my-auto pl-6 lg:pl-10 text-georama text-4xl lg:text-6xl pt-48 pb-40 trans-black">
+            <p>Witness the enthralling gaming experience on cutting-edge <span class="text-pink-500">innovation</span> from the smartphone industry</p>
+        </div>
+      </div>
+      <div
+        id="second-page"
+        class="absolute z-50 w-screen h-screen bg-gray-800"
+      >
+      <div class="flex flex-row justify-center w-screen my-10">
+          <p class="text-lato font-extabold text-2xl lg:text-4xl">Partner Brands</p>
+      </div>
+      <div class="slide-holder mt-10 mb-10 lg:mb-0 flex flex-row h-11/12 lg:h-3/4 justify-center w-full">
+        <div class="slider h-full flex flex-row w-auto overflow-visible">
+        </div>
+      </div>
+      <div class="slider-text-heading flex flex-col">
+        <div class="w-full px-6 lg:px-16 flex flex-row justify-between h-20">
+          <div>
+            <img src="./svgs/arrow-left.svg" class=" arrow-left w-10 border-2 border-white hover:bg-purple-600 hover:border-purple-600 p-2" />
+          </div>
+          <div class="text-center">
+            <p id="name" class="text-lato  bold text-4xl" ></p>
+          <p id="meta" class="text-orienta text-xl" ></p>
+          </div>
+          <div>
+            <img src="./svgs/arrow-right.svg" class="arrow-right w-10 border-2 hover:bg-purple-600 border-white hover:bg-purple-600 hover:border-purple-600 p-2" />
+          </div>
+        </div>
+      </div>
+    </div>
+      <div id="third-page" class="absolute z-20 w-screen h-screen bg-black">
+        <div class="w-screen h-screen flex flex-col justify-center pt-8">
+          <div
+            class="w-full h-4/5 flex flex-row mt-10 justify-center"
+            style="
+              background-image: url('./imgs/wallps/map.jpg');
+              background-size: contain;
+            "
+          >
+            <div
+              class="
+                text-black
+                w-11/12
+                lg:w-1/2
+                h-4/5
+                bg-white
+                flex flex-row
+                rounded-xl
+                my-auto
+                shadow-xl
+              "
+            >
+              <img src="./imgs/wallps/astronatu.jpg" class="w-1/2 h-full" />
+              <div class="h-full w-1/2 flex flex-col py-4 lg:py-10 px-2 lg:px-10">
+                <div class="w-full text-center mt-8 lg:mt-0">
+                  <p class="text-lato font-extrabold text-xl lg:text-4xl">CONTACT</p>
+                </div>
+                <div class="flex flex-col justify-between mt-20 lg:mt-20">
+                  <div class="w-full text-center text-orienta text-sm lg:text-2xl">
+                    SHOP NO.15, JAISWAL TRADING COMPANY, ATM LANE BALDEV PLAZA,
+                    GOLGHAR, 273001
+                  </div>
+                  <div onclick="window.open('tel:+919936128128')" class="w-full mt-8 lg:mt-20 flex flex-row px-4 py-4 border-4 border-black">
+                    <img class="w-6 h-6" src="./imgs/call.png" />
+                    <p class="ml-2 lg:ml-4 text-lato lg:text-xl text-sm">+919936128128</p>
+                  </div>
+
+                  <div id="email-box" class="w-full mt-6 lg:mt-10 flex flex-row px-4 py-4 border-4 border-black">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
