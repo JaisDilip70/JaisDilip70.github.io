@@ -1,51 +1,51 @@
 var brandData = [
-  { name: "Boat", img: "./imgs/boat.webp", meta: "", color: "#FFFFFF" },
+  { name: "Boat", img: "https://www.jaiswaltrading.company/imgs/boat.webp", meta: "", color: "#FFFFFF" },
   {
     name: "Infinix",
-    img: "./imgs/infinix.jpg",
+    img: "https://www.jaiswaltrading.company/imgs/infinix.jpg",
     meta: "",
     color: "#76AF00",
   },
   {
     name: "Itel",
-    img: "./imgs/itel.jpg",
+    img: "https://www.jaiswaltrading.company/imgs/itel.jpg",
     meta: "",
     color: "#FE0000",
   },
   {
    name: "Realme",
-   img: "./imgs/realme.png",
+   img: "https://www.jaiswaltrading.company/imgs/realme.png",
    meta: "Royal Club Member",
    color: "#FFC915",
  },
  {
    name: "Xiaomi",
-   img: "./imgs/xiaomi.png",
+   img: "https://www.jaiswaltrading.company/imgs/xiaomi.png",
    meta: "Platinum Partner",
    color: "#FF6700",
  },
   {
     name: "Lava",
-    img: "./imgs/lava.jpg",
+    img: "https://www.jaiswaltrading.company/imgs/lava.jpg",
     meta: "",
     color: "#EC1656",
   },
   {
     name: "Nokia",
-    img: "./imgs/nokia.jpg",
+    img: "https://www.jaiswaltrading.company/imgs/nokia.jpg",
     meta: "",
     color: "#014A99",
   },
   {
     name: "One Plus",
-    img: "./imgs/oneplus.png",
+    img: "https://www.jaiswaltrading.company/imgs/oneplus.png",
     meta: "",
     color: "#F62414",
   },
   
   {
     name: "Techno",
-    img: "./imgs/techno.jpg",
+    img: "https://www.jaiswaltrading.company/imgs/techno.jpg",
     color: "#0076B4",
     meta: "",
   },
@@ -274,11 +274,11 @@ function mountEmailBox(){
   let el = document.getElementById("email-box")
   if(window.innerWidth < 1920){
     el.style.setProperty("background-color", "black")
-    el.innerHTML = `<img class="w-6 h-6" src="./svgs/email.svg" />
+    el.innerHTML = `<img class="w-6 h-6" src="https://www.jaiswaltrading.company/svgs/email.svg" />
     <p class="ml-4 text-white text-lato text-xl">Email</p`
   }else{
     el.style.setProperty("background-color", "white")
-    el.innerHTML = `<img class="w-8 h-8" src="./svgs/email-icon.svg" />
+    el.innerHTML = `<img class="w-8 h-8" src="https://www.jaiswaltrading.company/svgs/email-icon.svg" />
     <p class="ml-2 lg:ml-4 text-lato text-xs lg:text-xl">business@jaiswaltrading.company</p>`
   }
   el.onclick = function(){
@@ -288,8 +288,8 @@ function mountEmailBox(){
 
 
 function mountBgImage(){
-  let largeImage = "./imgs/wallps/1186214.jpg"
-  let smallImage = "./imgs/wallps/phone.jpg"
+  let largeImage = "https://www.jaiswaltrading.company/imgs/wallps/1186214.jpg"
+  let smallImage = "https://www.jaiswaltrading.company/imgs/wallps/phone.jpg"
   let el = document.getElementById('bg-img')
   if(window.screen.width > 1024){
     el.src = largeImage
